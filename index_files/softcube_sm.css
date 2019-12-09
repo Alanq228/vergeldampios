@@ -1,0 +1,17 @@
+.blocksc {/*width: 156px;height: 117px;*/ margin: 0 auto;padding: 10px;}
+.blocksc img {max-width: 100%;max-height: 100%;} 
+.animate_holder { height: 100%;margin: 0 auto;position: relative;overflow: hidden;z-index: 0;}
+.softcubeprev, .softcubenext {color: #a6a6a6; display: block;position: relative;z-index: 1;top: 165px; text-align: center;line-height: 30px;vertical-align: middle;cursor: pointer;  font-size: 2em;}
+.softcubenext {right: -101.0%;left: auto;width: 0;height: 0;}
+.softcubeprev {width: 0;height: 0;  font-size: 3em;left: -5.5%;}
+.animate_inner {-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;position: relative;top: 0;left: 0;height: 100%;}
+.animate_item {-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;height: 100%;float:left;}
+.animate_holderProd{width: 98.5%; /*height: 375px; */padding-bottom: 10px; margin: 0 auto; position: relative; overflow: hidden; z-index: 0; } 
+.softcubeprevProd, .softcubenextProd{ display: block; position: relative; z-index: 100; top: 190px; left: -28px; text-align: center; line-height: 30px; vertical-align: middle; cursor: pointer; } 
+.softcubenextProd{left: 1194px; width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 15px; border-color: transparent transparent transparent #333; } 
+.softcubeprevProd{ width: 0; height: 0; border-style: solid; border-width: 10px 15px 10px 0; border-color: transparent #333 transparent transparent; } 
+.animate_inner{position: relative; top: 0; left: 0;} 
+.sc-hover{width:16.66%;float:left;position: relative;}
+@media screen and (max-width 1130px){.product-name.js-gtm-data.sc{font-size: 14px!important;}}
+.softcubenext.owl-next.fa.fa-angle-right {width: 20px!important;height: 20px!important;margin-top: -20px;}
+.softcubeprev.owl-prev.fa.fa-angle-left {width: 20px!important;height: 20px!important;}
